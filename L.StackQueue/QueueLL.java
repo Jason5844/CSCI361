@@ -4,9 +4,13 @@ public class QueueLL<T extends Comparable<T>> implements IQueue<T>
 {
    public static void main(String args[])
    {
-      /*
-      You can use this method to test or debug your program.
-      */
+      public void enqueue(3);
+      public void enqueue(8);
+      public void enqueue(1);
+      
+      public void reverse();
+      
+      public void sort();
    }
 
 	private Node m_head;
@@ -49,6 +53,8 @@ public class QueueLL<T extends Comparable<T>> implements IQueue<T>
     {
       public void enqueue(reverseArray[i]);
     }
+    
+    System.out.println("Reversed Queue: " + Arrays.toString(reverseArray));
 
 	}
 
@@ -78,6 +84,8 @@ public class QueueLL<T extends Comparable<T>> implements IQueue<T>
       {
         public void enqueue(sortArray[i]);
       }
+      
+      System.out.println("Sorted queue: " + Arrays.toString(sortArray));
 	   
 	}
 
